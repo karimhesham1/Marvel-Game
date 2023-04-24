@@ -1,0 +1,98 @@
+.label
+{
+	-fx-text-fill: gainsboro ;
+	-fx-font-style: oblique;
+	-fx-background-radius: 30;
+	-fx-font-weight:bold ;
+	-fx-font-size: 15px;
+}
+.labelend
+{
+	
+	-fx-text-fill: white;
+	-fx-font-style: oblique;
+	-fx-background-radius: 30;
+	-fx-font-weight:bold ;
+	-fx-font-size: 55px;
+
+}
+.dialog-pane > .content.label {
+   -fx-padding: 0.5em 0.5em 0.5em 0.5em;
+   //-fx-background-color: yellow;
+   -fx-text-fill:black;
+   -fx-font-size:15.0px;
+}
+
+.dialog-pane:header .header-panel .label{
+  //-fx-background-color: yellow;
+  -fx-background-radius:10px;
+  -fx-text-fill:black;
+  -fx-font-size:15.0px;
+}
+
+
+.dialog-pane .button:hover{     
+  -fx-background-color:white;
+  -fx-text-fill:black;
+  -fx-font-weight:bold; 
+ }
+ 
+ .dialog-pane{
+  -fx-border-color:black;
+  -fx-border-width:2.0px;
+ }
+ 
+ 
+.button{
+  -fx-font-family: "Poppins", sans-serif;
+  //-fx-font-size: 3rem;
+  -fx-font-weight: bold;
+  -fx-color: #fff;
+  //-fx-background-color: #6f4cff26;
+  -fx-border: 3px solid #6f4cff90;
+  -fx-cursor: pointer;
+  
+  -fx-transition: all .3s ease;
+}
+
+
+.buttongame
+{
+	-fx-font-family: "Poppins", sans-serif;
+  //-fx-font-size: 3rem;
+  -fx-font-weight: bold;
+  -fx-color: #fff;
+  //-fx-background-color: #6f4cff26;
+  -fx-border: 3px solid #6f4cff90;
+  -fx-cursor: pointer;
+  
+  -fx-transition: all .3s ease;
+}
+
+.buttongame:hover {
+  -fx-background-color: #6f4cff59;
+ -fx-border: 3px solid #6f4cff99;
+  
+  -fx-transition: all .3s ease;
+}
+
+.button:hover {
+  -fx-background-color: #6f4cff59;
+ -fx-border: 3px solid #6f4cff99;
+  
+  -fx-transition: all .3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

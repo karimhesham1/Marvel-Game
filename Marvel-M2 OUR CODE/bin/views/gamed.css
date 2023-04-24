@@ -1,0 +1,158 @@
+.root
+{
+//	-fx-app-background: cornsilk;
+// 	-fx-background-color: -fx-app-background;
+//  	-fx-padding: 20;
+	-fx-font-size: 17px;
+	-fx-font-weight:bold ;
+//	-fx-background-image: url("marvel.png");
+//	-fx-background-repeat: no-repeat;
+//	-fx-background-size: stertch ;
+	
+}
+
+.label
+{
+	
+	-fx-text-fill: white;
+	-fx-font-style: oblique;
+	-fx-background-radius: 30;
+	-fx-font-weight:bold ;
+	-fx-font-size: 20px;
+
+}
+
+.labelend
+{
+	
+	-fx-text-fill: white;
+	-fx-font-style: oblique;
+	-fx-background-radius: 30;
+	-fx-font-weight:bold ;
+	-fx-font-size: 60px;
+
+}
+
+{
+	-fx-primary-color: #007acc;
+	-fx-secondary-color: #4B6EAF;
+	-fx-grey-color: #b9b9b9;
+    
+	-fx-focus-color: -fx-secondary-color;
+}
+
+.textField
+{
+		-fx-background-radius: 30;
+		-fx-background-color: #C88DA5;
+		-fx-background-insets: 0, 0 0 1 0;
+	
+		
+}
+
+
+.nextButtons
+{
+	
+	-fx-text-fill: gainsboro ;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-effect-dropshadow-blur-type: one-pass-box;
+	-fx-effect-dropshadow-color: black;
+	
+	
+}
+
+
+.toolTips
+{
+	-fx-background-radius: 30;
+	-fx-background-color: #696969;
+	-fx-text-fill: white;
+	-fx-font-style: italic ;
+	
+	
+}
+
+
+
+.button{
+  -fx-font-family: "Poppins", sans-serif;
+  //-fx-font-size: 3rem;
+  -fx-font-weight: bold;
+  -fx-color: #fff;
+ // -fx-background-color: #6f4cff26;
+ // -fx-border: 3px solid #6f4cff90;
+  -fx-cursor: pointer;
+  
+  -fx-transition: all .3s ease;
+}
+
+.buttongame
+{
+	-fx-font-family: "Poppins", sans-serif;
+	-fx-border-color: transparent;
+	//-fx-background-color: black;
+	-fx-font-weight: bold;
+  	-fx-color: #fff;
+	-fx-cursor: pointer;
+}
+
+.button:hover {
+  //-fx-background-color: #6f4cff59;
+ // -fx-border: 3px solid #6f4cff99;
+  
+  -fx-transition: all .3s ease;
+}
+
+
+
+.champsButtons
+{
+	
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+}
+//#nterNames
+//{
+//		-fx-border-color: red;
+//		-fx-background-color: black;
+//		
+//}
+.hp
+{
+	-fx-progress-color: red;
+	-fx-border-color: white;
+	-fx-background-color:transparent;
+}
+
+.red-bar { -fx-accent: red;   }
+.yellow-bar { -fx-accent: yellow;   }
+.green-bar { -fx-accent: green;   }
+
+.trans-cover{
+	
+	
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	
+	
+}
+
+.currchampinfo
+{
+	-fx-font-size: 15px;
+}
+
+.normalcolor
+{
+    -fx-background-radius: 1000;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+
+
+
+
+

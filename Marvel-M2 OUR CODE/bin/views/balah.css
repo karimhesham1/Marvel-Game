@@ -1,0 +1,71 @@
+body {
+    -fx-margin: 0;
+    -fx-padding: 0;
+    -fx-width: 100%;
+    -fx-height: 100vh;
+    -fx-display: flex;
+    -fx-flex-direction: row;
+    -fx-justify-content: center;
+    -fx-align-items: center;
+    -fx-background: #000;
+}
+
+.button {
+    -fx-width: 220px;
+   	-fx-height: 50px;
+    -fx-border: none;
+    -fx-outline: none;
+    -fx-color: #fff;
+    -fx-background: #111;
+    -fx-cursor: pointer;
+    -fx-position: relative;
+    -fx-z-index: 0;
+    -fx-border-radius: 10px;
+}
+
+.button:before {
+    -fx-content: '';
+    -fx-background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    -fx-position: absolute;
+    -fx-top: -2px;
+    -fx-left:-2px;
+    -fx-background-size: 400%;
+    -fx-z-index: -1;
+    -fx-filter: blur(5px);
+    -fx-width: calc(100% + 4px);
+    -fx-height: calc(100% + 4px);
+    -fx-animation: glowing 20s linear infinite;
+    -fx-opacity: 0;
+    -fx-transition: opacity .3s ease-in-out;
+    -fx-border-radius: 10px;
+}
+
+.button:active {
+    -fx-color: #000
+}
+
+.button:active:after {
+    -fx-background: transparent;
+}
+
+.button:hover:before {
+    -fx-opacity: 1;
+}
+
+.button:after {
+    -fx-z-index: -1;
+    -fx-content: '';
+    -fx-position: absolute;
+    -fx-width: 100%;
+    -fx-height: 100%;
+    -fx-background: #111;
+    -fx-left: 0;
+    -fx-top: 0;
+    -fx-border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
